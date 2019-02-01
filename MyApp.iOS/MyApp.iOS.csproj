@@ -125,6 +125,23 @@
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\1menu.png" />
+    <BundleResource Include="Resources\2menu.png" />
+    <BundleResource Include="Resources\3menu.png" />
+    <BundleResource Include="Resources\4menu.png" />
+    <BundleResource Include="Resources\5menu.png" />
+    <BundleResource Include="Resources\6menu.png" />
+    <BundleResource Include="Resources\7menu.png" />
+    <BundleResource Include="Resources\8menu.png" />
+    <BundleResource Include="Resources\btnAcercaEmai.png" />
+    <BundleResource Include="Resources\btnAcercaMensaje.png" />
+    <BundleResource Include="Resources\btnAcercaTel.png" />
+    <BundleResource Include="Resources\btnAcercaWeb.png" />
+    <BundleResource Include="Resources\icoMegusta.png" />
+    <BundleResource Include="Resources\iconoTitulo.png" />
+    <BundleResource Include="Resources\logoMyApp.png" />
+    <BundleResource Include="Resources\noticia1.png" />
+    <BundleResource Include="Resources\splash.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
