@@ -1,4 +1,5 @@
 ﻿using MyApp.Models;
+using MyApp.Views.PruebaA;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -27,10 +28,28 @@ namespace MyApp.Views
                 switch (id)
                 {
                     case (int)MenuItemType.Browse:
-                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                        MenuPages.Add(id, new NavigationPage(new NoticiasListaPage()));
+                        break;
+                    case (int)MenuItemType.Message:
+                        MenuPages.Add(id, new NavigationPage(new DevPage()));
+                        break;
+                    case (int)MenuItemType.Notification:
+                        MenuPages.Add(id, new NavigationPage(new DevPage()));
+                        break;
+                    case (int)MenuItemType.Photo:
+                        MenuPages.Add(id, new NavigationPage(new DevPage()));
+                        break;
+                    case (int)MenuItemType.Video:
+                        MenuPages.Add(id, new NavigationPage(new DevPage()));
+                        break;
+                    case (int)MenuItemType.Location:
+                        MenuPages.Add(id, new NavigationPage(new DevPage()));
                         break;
                     case (int)MenuItemType.About:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                        MenuPages.Add(id, new NavigationPage(new AcercaPage()));
+                        break;
+                    case (int)MenuItemType.Search:
+                        MenuPages.Add(id, new NavigationPage(new DevPage()));
                         break;
                 }
             }

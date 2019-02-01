@@ -7,7 +7,13 @@ namespace MyApp.Models
     public enum MenuItemType
     {
         Browse,
-        About
+        Message,
+        Notification,
+        Photo,
+        Video,
+        Location,
+        About,
+        Search
     }
     public class HomeMenuItem
     {
