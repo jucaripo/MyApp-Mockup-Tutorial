@@ -17,5 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\PruebaA\acercaPage.xaml.cs" />
+    <Compile Remove="Views\PruebaA\MenuPage.xaml.cs" />
+    <Compile Remove="Views\PruebaA\NoticiasListaPage.cs" />
   </ItemGroup>
 </Project>
