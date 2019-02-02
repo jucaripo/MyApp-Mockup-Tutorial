@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace MyApp.Views.PruebaA
 {
-    public partial class AcercaPage : ContentPage
+    public partial class NoticiasCellListView : ContentView
     {
-        public AcercaPage()
+        public NoticiasCellListView()
         {
             InitializeComponent();
         }

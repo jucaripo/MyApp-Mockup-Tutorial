@@ -142,6 +142,7 @@
     <BundleResource Include="Resources\logoMyApp.png" />
     <BundleResource Include="Resources\noticia1.png" />
     <BundleResource Include="Resources\splash.png" />
+    <BundleResource Include="Resources\icoNomegusta.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

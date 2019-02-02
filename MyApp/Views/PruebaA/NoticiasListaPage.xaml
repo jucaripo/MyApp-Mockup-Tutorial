@@ -1,5 +1,117 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyApp.Views.PruebaA.NoticiasListaPage">
     <ContentPage.Content>
+        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <StackLayout>
+                <!--Nota template -->
+        <StackLayout >
+            <!-- BARRA DE TITULO -->
+            <StackLayout Orientation="Horizontal" BackgroundColor="#F7F7F7" >
+                 <Image Source="iconoTitulo" BackgroundColor="Lime" WidthRequest="119" HeightRequest="119" />
+                 <StackLayout Orientation="Vertical" Margin="0,20,0,10" Spacing="0">
+                    <Label Text="¿Que es un Mockup?" FontAttributes="Bold" FontSize="20"    />
+                    <Label Text="Por el Monito reportero" TextColor="#0071BC" Margin="20"  />  
+                </StackLayout>
+            </StackLayout>
+            <Image BackgroundColor="Green" Source="noticia1" Aspect="AspectFill" HeightRequest="360" />
+            <!-- Line de Likes yno gusta -->
+            <StackLayout Orientation="Horizontal" Padding="10,0,10,0"  >
+                <Label Text="2,890 likes" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" />
+                <Image Source="icoNomegusta"  WidthRequest="24" HeightRequest="24" />
+                <Image Source="icoMegusta"  WidthRequest="24" HeightRequest="24" />
+            </StackLayout>
+            <!-- info de contenido -->
+            <StackLayout Padding="10,10,10,10">
+                <Label Text="¿Que es un Sketch?" TextColor="#7B7B7B" FontSize="24" />
+                <Label Text="Pensemos en el Sketch como un primer boceto" TextColor="#7B7B7B" FontSize="16" />
+                <Label Text="que realizamos para un proyecto digital que …" TextColor="#7B7B7B" FontSize="16" />
+                <Label Text="Leer más..." TextColor="#7B7B7B" FontSize="12" />
+            </StackLayout>
+            <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+        <!-- fin nota template -->
+                               <!--Nota template -->
+        <StackLayout >
+            <!-- BARRA DE TITULO -->
+            <StackLayout Orientation="Horizontal" BackgroundColor="#F7F7F7" >
+                 <Image Source="iconoTitulo" BackgroundColor="Lime" WidthRequest="119" HeightRequest="119" />
+                 <StackLayout Orientation="Vertical" Margin="0,20,0,10" Spacing="0">
+                    <Label Text="¿Que es un Mockup?" FontAttributes="Bold" FontSize="20"    />
+                    <Label Text="Por el Monito reportero" TextColor="#0071BC" Margin="20"  />  
+                </StackLayout>
+            </StackLayout>
+            <Image BackgroundColor="Green" Source="noticia1" Aspect="AspectFill" HeightRequest="360" />
+            <!-- Line de Likes yno gusta -->
+            <StackLayout Orientation="Horizontal" Padding="10,0,10,0"  >
+                <Label Text="2,890 likes" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" />
+                <Image Source="icoNomegusta"  WidthRequest="24" HeightRequest="24" />
+                <Image Source="icoMegusta"  WidthRequest="24" HeightRequest="24" />
+            </StackLayout>
+            <!-- info de contenido -->
+            <StackLayout Padding="10,10,10,10">
+                <Label Text="¿Que es un Sketch?" TextColor="#7B7B7B" FontSize="24" />
+                <Label Text="Pensemos en el Sketch como un primer boceto" TextColor="#7B7B7B" FontSize="16" />
+                <Label Text="que realizamos para un proyecto digital que …" TextColor="#7B7B7B" FontSize="16" />
+                <Label Text="Leer más..." TextColor="#7B7B7B" FontSize="12" />
+            </StackLayout>
+            <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+        <!-- fin nota template -->
+                            <!--Nota template -->
+        <StackLayout >
+            <!-- BARRA DE TITULO -->
+            <StackLayout Orientation="Horizontal" BackgroundColor="#F7F7F7" >
+                 <Image Source="iconoTitulo" BackgroundColor="Lime" WidthRequest="119" HeightRequest="119" />
+                 <StackLayout Orientation="Vertical" Margin="0,20,0,10" Spacing="0">
+                    <Label Text="¿Que es un Mockup?" FontAttributes="Bold" FontSize="20"    />
+                    <Label Text="Por el Monito reportero" TextColor="#0071BC" Margin="20"  />  
+                </StackLayout>
+            </StackLayout>
+            <Image BackgroundColor="Green" Source="noticia1" Aspect="AspectFill" HeightRequest="360" />
+            <!-- Line de Likes yno gusta -->
+            <StackLayout Orientation="Horizontal" Padding="10,0,10,0"  >
+                <Label Text="2,890 likes" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" />
+                <Image Source="icoNomegusta"  WidthRequest="24" HeightRequest="24" />
+                <Image Source="icoMegusta"  WidthRequest="24" HeightRequest="24" />
+            </StackLayout>
+            <!-- info de contenido -->
+            <StackLayout Padding="10,10,10,10">
+                <Label Text="¿Que es un Sketch?" TextColor="#7B7B7B" FontSize="24" />
+                <Label Text="Pensemos en el Sketch como un primer boceto" TextColor="#7B7B7B" FontSize="16" />
+                <Label Text="que realizamos para un proyecto digital que …" TextColor="#7B7B7B" FontSize="16" />
+                <Label Text="Leer más..." TextColor="#7B7B7B" FontSize="12" />
+            </StackLayout>
+            <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+        <!-- fin nota template --> 
+                                <!--Nota template -->
+        <StackLayout >
+            <!-- BARRA DE TITULO -->
+            <StackLayout Orientation="Horizontal" BackgroundColor="#F7F7F7" >
+                 <Image Source="iconoTitulo" BackgroundColor="Lime" WidthRequest="119" HeightRequest="119" />
+                 <StackLayout Orientation="Vertical" Margin="0,20,0,10" Spacing="0">
+                    <Label Text="¿Que es un Mockup?" FontAttributes="Bold" FontSize="20"    />
+                    <Label Text="Por el Monito reportero" TextColor="#0071BC" Margin="20"  />  
+                </StackLayout>
+            </StackLayout>
+            <Image BackgroundColor="Green" Source="noticia1" Aspect="AspectFill" HeightRequest="360" />
+            <!-- Line de Likes yno gusta -->
+            <StackLayout Orientation="Horizontal" Padding="10,0,10,0"  >
+                <Label Text="2,890 likes" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" />
+                <Image Source="icoNomegusta"  WidthRequest="24" HeightRequest="24" />
+                <Image Source="icoMegusta"  WidthRequest="24" HeightRequest="24" />
+            </StackLayout>
+            <!-- info de contenido -->
+            <StackLayout Padding="10,10,10,10">
+                <Label Text="¿Que es un Sketch?" TextColor="#7B7B7B" FontSize="24" />
+                <Label Text="Pensemos en el Sketch como un primer boceto" TextColor="#7B7B7B" FontSize="16" />
+                <Label Text="que realizamos para un proyecto digital que …" TextColor="#7B7B7B" FontSize="16" />
+                <Label Text="Leer más..." TextColor="#7B7B7B" FontSize="12" />
+            </StackLayout>
+            <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+        <!-- fin nota template -->
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
